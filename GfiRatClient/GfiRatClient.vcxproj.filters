@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{4d6f8c5d-b9f7-4a59-8ae2-7c1ef78caf1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="buffer">
+      <UniqueIdentifier>{e905f486-054d-43c6-b04c-0ed5d265f336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基类">
+      <UniqueIdentifier>{a58c9ea2-2abe-42ac-a77e-e99c67f17bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="小功能">
+      <UniqueIdentifier>{051a4ce7-8998-41dd-8538-8ff75d3e947a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="登录">
+      <UniqueIdentifier>{4141c175-c77b-4a13-ae6a-dd6126a437be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="安装">
+      <UniqueIdentifier>{5c40238b-205d-4440-8c29-09590f9c66e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="注册表">
+      <UniqueIdentifier>{ccb1d581-0e8a-4db9-a752-632fd0a24d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="压缩库">
+      <UniqueIdentifier>{9d1c5a76-9995-41bf-aaa8-cc5741eef7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ddos">
+      <UniqueIdentifier>{d943cd7f-d19c-4e17-8aeb-78ef9bc38577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统">
+      <UniqueIdentifier>{00c0bc91-13c4-4e59-a0e9-28b658fa3f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell">
+      <UniqueIdentifier>{efd16953-91b9-4402-9ecf-4a17766748f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="keboard">
+      <UniqueIdentifier>{1c958f8c-944f-4f92-ab82-7531f19e9014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{9d1fd2b9-71e4-41b3-99d8-e7073d61ba6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="screen">
+      <UniqueIdentifier>{a26dc67e-9a3b-4be6-b74d-1c201c3cb267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sysinfo">
+      <UniqueIdentifier>{d3b0c53e-64e2-4365-bdd9-7c0955d232b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio">
+      <UniqueIdentifier>{96aef4a2-c4d8-43b0-9b94-39873bb900b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vedio">
+      <UniqueIdentifier>{d052c9b6-9fb8-40b3-82c1-1b8f5bd45b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="新屏幕控制">
+      <UniqueIdentifier>{5a182f62-5680-42b0-a779-d65c6f8a9603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="speaker">
+      <UniqueIdentifier>{eba0cde1-1b1e-47dd-a188-f9848f5ba38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sermanager">
+      <UniqueIdentifier>{a2cb5349-8e6c-4a57-819f-5d03ad079579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="远程交谈">
+      <UniqueIdentifier>{c3f251f1-0db8-45d8-8875-9a5a9d954eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="代理映射">
+      <UniqueIdentifier>{b616fd14-3e8d-49b2-9b15-f9ce8b397d3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GfiRatClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelManager.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer.cpp">
+      <Filter>登录</Filter>
+    </ClCompile>
+    <ClCompile Include="until.cpp">
+      <Filter>小功能</Filter>
+    </ClCompile>
+    <ClCompile Include="install.cpp">
+      <Filter>安装</Filter>
+    </ClCompile>
+    <ClCompile Include="RegEditEx.cpp">
+      <Filter>注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="ddos.cpp">
+      <Filter>ddos</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialupass.cpp">
+      <Filter>系统</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellManager.cpp">
+      <Filter>shell</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardManager.cpp">
+      <Filter>keboard</Filter>
+    </ClCompile>
+    <ClCompile Include="fiileManager.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>screen</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSpy.cpp">
+      <Filter>screen</Filter>
+    </ClCompile>
+    <ClCompile Include="RegManager.cpp">
+      <Filter>注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="RegeditOpt.cpp">
+      <Filter>注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="SysInfo.cpp">
+      <Filter>sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="ZXPortMap.cpp">
+      <Filter>sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>audio</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoManager.cpp">
+      <Filter>vedio</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureVideo.cpp">
+      <Filter>vedio</Filter>
+    </ClCompile>
+    <ClCompile Include="newScreenSpy.cpp">
+      <Filter>新屏幕控制</Filter>
+    </ClCompile>
+    <ClCompile Include="newScreenManager.cpp">
+      <Filter>新屏幕控制</Filter>
+    </ClCompile>
+    <ClCompile Include="XvidEnc.cpp">
+      <Filter>新屏幕控制</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeakerManager.cpp">
+      <Filter>speaker</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaybackAudioCapture.cpp">
+      <Filter>speaker</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioRender.cpp">
+      <Filter>speaker</Filter>
+    </ClCompile>
+    <ClCompile Include="SerManager.cpp">
+      <Filter>Sermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatManager.cpp">
+      <Filter>远程交谈</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyManager.cpp">
+      <Filter>代理映射</Filter>
+    </ClCompile>
+    <ClCompile Include="GetNetState.cpp">
+      <Filter>系统</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>系统</Filter>
+    </ClCompile>
+    <ClCompile Include="DxgiGrab.cpp">
+      <Filter>screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelManager.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginServer.h">
+      <Filter>登录</Filter>
+    </ClInclude>
+    <ClInclude Include="until.h">
+      <Filter>小功能</Filter>
+    </ClInclude>
+    <ClInclude Include="install.h">
+      <Filter>安装</Filter>
+    </ClInclude>
+    <ClInclude Include="decode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegEditEx.h">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>压缩库</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>压缩库</Filter>
+    </ClInclude>
+    <ClInclude Include="loop.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="ddos.h">
+      <Filter>ddos</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialupass.h">
+      <Filter>系统</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellManager.h">
+      <Filter>shell</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardManager.h">
+      <Filter>keboard</Filter>
+    </ClInclude>
+    <ClInclude Include="filemanager.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSpy.h">
+      <Filter>screen</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>screen</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorInfo.h">
+      <Filter>screen</Filter>
+    </ClInclude>
+    <ClInclude Include="RegManager.h">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="RegeditOpt.h">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="SysInfo.h">
+      <Filter>sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="ZXPortMap.h">
+      <Filter>sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>sysinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>登录</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>audio</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoCodec.h">
+      <Filter>vedio</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoManager.h">
+      <Filter>vedio</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptureVideo.h">
+      <Filter>vedio</Filter>
+    </ClInclude>
+    <ClInclude Include="qedit.h">
+      <Filter>vedio</Filter>
+    </ClInclude>
+    <ClInclude Include="dxtrans.h">
+      <Filter>vedio</Filter>
+    </ClInclude>
+    <ClInclude Include="d3drm.h">
+      <Filter>vedio</Filter>
+    </ClInclude>
+    <ClInclude Include="d3drmdef.h">
+      <Filter>vedio</Filter>
+    </ClInclude>
+    <ClInclude Include="d3drmobj.h">
+      <Filter>vedio</Filter>
+    </ClInclude>
+    <ClInclude Include="newScreenSpy.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="newScreenManager.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="XvidEnc.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="xvid.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="jconfig.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="jerror.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="jmorecfg.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeglib.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="turbojpeg.h">
+      <Filter>新屏幕控制</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeakerManager.h">
+      <Filter>speaker</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaybackAudioCapture.h">
+      <Filter>speaker</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioRender.h">
+      <Filter>speaker</Filter>
+    </ClInclude>
+    <ClInclude Include="SerManager.h">
+      <Filter>Sermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatManager.h">
+      <Filter>远程交谈</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyManager.h">
+      <Filter>代理映射</Filter>
+    </ClInclude>
+    <ClInclude Include="GetNetState.h">
+      <Filter>系统</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>系统</Filter>
+    </ClInclude>
+    <ClInclude Include="DxgiGrab.h">
+      <Filter>screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{86BAE5C2-E0F8-45B5-92E0-A295EE5FEDB1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GfiRatClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>GfiRatClient</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;ZLIB_WINAPI;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;ZLIB_WINAPI;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions> /SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SystemManager.cpp" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="AudioRender.cpp" />
+    <ClCompile Include="Buffer.cpp" />
+    <ClCompile Include="CaptureVideo.cpp" />
+    <ClCompile Include="ClientSocket.cpp" />
+    <ClCompile Include="ddos.cpp" />
+    <ClCompile Include="Dialupass.cpp" />
+    <ClCompile Include="fiileManager.cpp" />
+    <ClCompile Include="GfiRatClient.cpp" />
+    <ClCompile Include="install.cpp" />
+    <ClCompile Include="KernelManager.cpp" />
+    <ClCompile Include="KeyboardManager.cpp" />
+    <ClCompile Include="LoginServer.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="newScreenManager.cpp" />
+    <ClCompile Include="newScreenSpy.cpp" />
+    <ClCompile Include="PlaybackAudioCapture.cpp" />
+    <ClCompile Include="RegEditEx.cpp" />
+    <ClCompile Include="RegeditOpt.cpp" />
+    <ClCompile Include="Registry.cpp" />
+    <ClCompile Include="RegManager.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="ScreenSpy.cpp" />
+    <ClCompile Include="ShellManager.cpp" />
+    <ClCompile Include="SysInfo.cpp" />
+    <ClCompile Include="until.cpp" />
+    <ClCompile Include="VideoManager.cpp" />
+    <ClCompile Include="XvidEnc.cpp" />
+    <ClCompile Include="ZXPortMap.cpp" />
+    <ClCompile Include="SpeakerManager.cpp" />
+    <ClCompile Include="SerManager.cpp" />
+    <ClCompile Include="ChatManager.cpp" />
+    <ClCompile Include="ProxyManager.cpp" />
+    <ClCompile Include="GetNetState.cpp" />
+    <ClCompile Include="DxgiGrab.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SystemManager.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="AudioRender.h" />
+    <ClInclude Include="Buffer.h" />
+    <ClInclude Include="CaptureVideo.h" />
+    <ClInclude Include="ClientSocket.h" />
+    <ClInclude Include="CursorInfo.h" />
+    <ClInclude Include="d3drm.h" />
+    <ClInclude Include="d3drmdef.h" />
+    <ClInclude Include="d3drmobj.h" />
+    <ClInclude Include="ddos.h" />
+    <ClInclude Include="decode.h" />
+    <ClInclude Include="Dialupass.h" />
+    <ClInclude Include="dxtrans.h" />
+    <ClInclude Include="filemanager.h" />
+    <ClInclude Include="install.h" />
+    <ClInclude Include="jconfig.h" />
+    <ClInclude Include="jerror.h" />
+    <ClInclude Include="jmorecfg.h" />
+    <ClInclude Include="jpeglib.h" />
+    <ClInclude Include="KernelManager.h" />
+    <ClInclude Include="KeyboardManager.h" />
+    <ClInclude Include="login.h" />
+    <ClInclude Include="LoginServer.h" />
+    <ClInclude Include="loop.h" />
+    <ClInclude Include="macros.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="newScreenManager.h" />
+    <ClInclude Include="newScreenSpy.h" />
+    <ClInclude Include="PlaybackAudioCapture.h" />
+    <ClInclude Include="Proxy.h" />
+    <ClInclude Include="qedit.h" />
+    <ClInclude Include="RegEditEx.h" />
+    <ClInclude Include="RegeditOpt.h" />
+    <ClInclude Include="Registry.h" />
+    <ClInclude Include="RegManager.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="ScreenSpy.h" />
+    <ClInclude Include="ShellManager.h" />
+    <ClInclude Include="SysInfo.h" />
+    <ClInclude Include="turbojpeg.h" />
+    <ClInclude Include="until.h" />
+    <ClInclude Include="VideoCodec.h" />
+    <ClInclude Include="VideoManager.h" />
+    <ClInclude Include="xvid.h" />
+    <ClInclude Include="XvidEnc.h" />
+    <ClInclude Include="zconf.h" />
+    <ClInclude Include="zlib.h" />
+    <ClInclude Include="ZXPortMap.h" />
+    <ClInclude Include="SpeakerManager.h" />
+    <ClInclude Include="SerManager.h" />
+    <ClInclude Include="ChatManager.h" />
+    <ClInclude Include="ProxyManager.h" />
+    <ClInclude Include="GetNetState.h" />
+    <ClInclude Include="DxgiGrab.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
